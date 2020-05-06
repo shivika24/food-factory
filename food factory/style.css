@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+        box-shadow: 7px 4px 18px #314042; 
+        background: rgba(129, 176, 216, 0.48);
+        margin-top: 60px;
+        height: 50%;
+        width: 60%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url('https://i.pinimg.com/originals/fe/26/e8/fe26e8934d8a7d2472556ea7ed15559b.jpg');  
+        opacity: 0.8;
+        border: 5px double #af7931;
+        position: relative;
+    
+}
+#bid
+{
+  width: 50%;
+  height: 50px;
+  background-color: rgb(141, 168, 177);
+  opacity: 0.5;
+}
+#bid1
+{
+  width: 50%;
+  height: 50px;
+  background-color: rgb(196, 156, 175);
+  opacity: 0.5;
+}
+
+.container h1{
+    font-size: 36px;
+    font-weight: 250;
+    text-align: center;
+    text-shadow: 2px 2px darkgoldenrod;
+}
+.container input{
+    width: 80%;
+    background: transparent;
+	border-right: 0px;
+	border:0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	margin-top: 15px;
+	height: 40px;
+    color: black;
+}
+#submitbut1
+{
+  background-color:  #008CBA; 
+  border: 2px solid rgb(116, 162, 177);  
+  color: black;
+  width: 50%;
+  padding: 8px 16px;
+}
+
+
+
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container1:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container1 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container1 .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  #menub {
+    height: 40px;
+    width: 18%;
+    background-color: #bdad8f; 
+    color: black; 
+    border: 2px solid rgb(197, 223, 231);
+  }
+  
+  #menub:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link
+  {
+      color: black;
+      font-size: 20px;
+  } 
+  #d1
+  {
+    background: linear-gradient(45deg, #a09999a3, #eac04840);
+    box-shadow: 12px 12px 29px -5.8px black;
+  }

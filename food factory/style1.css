@@ -1,0 +1,25 @@
+#mh
+  {
+    color: palevioletred;
+  }
+  #wishlistcard .row {
+    background-color: #baaa7dc2;
+    box-shadow: 6px 6px 11px #9e967e;
+    border: 2px solid #bdad8f;
+    padding:10px;
+    margin-top: 5px;
+}
+#wishlistcard .row img{
+    height: 212px;
+    width: 216px;
+}
+#wishlistcard .card{
+    background-color: transparent;
+}
+
+
+  .navbar-dark .navbar-nav .nav-link
+  {
+      color: black;
+      font-size: 20px;
+  } 
